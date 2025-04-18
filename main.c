@@ -42,7 +42,7 @@ void func3(int argc, char *argv[])
     printf("performing Third command\n");
 }
 
-cmd_t command[] = {
+const cmd_t command[] = {
     {.cmd_text = "add_all",
      .cmd_func = add_all},
     {.cmd_text = "cmd2",
